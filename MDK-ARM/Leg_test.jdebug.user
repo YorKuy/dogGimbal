@@ -1,0 +1,24 @@
+
+GraphedExpression="test_flag_1", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#a00909
+GraphedExpression="test_flag_2", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#09a01b
+GraphedExpression="MCL_PID_OUT", Color=#09a087
+OpenDocument="stm32f4xx_hal_uart.c", FilePath="D:/sturtctate/25Infantry/26Alien/dogGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c", Line=3216
+OpenDocument="stm32f4xx_hal_can.c", FilePath="D:/sturtctate/25Infantry/26Alien/dogGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c", Line=1554
+OpenDocument="stm32f4xx_hal_gpio.c", FilePath="D:/sturtctate/25Infantry/26Black/Dark_Gimbal/Leg_Gimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c", Line=392
+OpenDocument="main.c", FilePath="D:/sturtctate/25Infantry/26Black/Dark_Gimbal/Leg_Gimbal/Core/Src/main.c", Line=325
+OpenDocument="Shoot.cpp", FilePath="D:/sturtctate/25Infantry/26Black/Dark_Gimbal/Leg_Gimbal/Control/Shoot.cpp", Line=69
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Global Data", DockArea=LEFT, x=0, y=0, w=624, h=239, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Local Data", DockArea=RIGHT, x=0, y=0, w=552, h=227, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Watched Data 1", DockArea=LEFT, x=0, y=1, w=624, h=463, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Data Sampling", DockArea=BOTTOM, x=0, y=0, w=1920, h=221, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=RIGHT, x=0, y=1, w=552, h=475, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="1 s", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="330;0", PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="313;0", CodeGraphLegendShown=0, CodeGraphLegendPosition="327;0"
+TableHeader="Global Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Scope"], ColWidths=[214;100;100;100;100;322]
+TableHeader="Local Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Scope"], ColWidths=[100;100;100;100;100;357]
+TableHeader="Data Sampling Table", SortCol="Index", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" test_flag_1";" test_flag_2";" MCL_PID_OUT"], ColWidths=[100;100;100;100;100]
+TableHeader="Data Sampling Setup", SortCol="Type", SortOrder="ASCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[291;126;126;100;126;126;100;107;818]
+TableHeader="Power Sampling", SortCol="Index", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh"], ColWidths=[198;100;100;226]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[26;26;26;26]
+WatchedExpression="MCL_PID_OUT[0]", Window=Watched Data 1

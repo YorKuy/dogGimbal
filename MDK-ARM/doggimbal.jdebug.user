@@ -1,0 +1,33 @@
+
+GraphedExpression="GIMBAL_088.realAngle.yaw", Color=#a00909
+GraphedExpression="Yaw.ref", Color=#09a01b
+GraphedExpression="error_yaw", Color=#09a087
+GraphedExpression="Pitch.ref", Color=#0984a0
+GraphedExpression="GIMBAL_088.realAngle.pitch", Color=#0964a0
+OpenDocument="RM_Lib.h", FilePath="D:/sturtctate/25Infantry/26Alien/dogGimbal/RM2023_Lib_V1.2/RM_Lib.h", Line=954
+OpenDocument="stm32f4xx_hal_uart.c", FilePath="D:/sturtctate/25Infantry/26Alien/dogGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c", Line=3205
+OpenDocument="Shoot.cpp", FilePath="D:/sturtctate/25Infantry/26Alien/dogGimbal/Control/Shoot.cpp", Line=160
+OpenDocument="main.c", FilePath="D:/sturtctate/25Infantry/26Alien/dogGimbal/Core/Src/main.c", Line=386
+OpenDocument="DM.cpp", FilePath="D:/sturtctate/25Infantry/26Alien/dogGimbal/Motor_Lib/DM.cpp", Line=65
+OpenDocument="stm32f4xx_hal_can.c", FilePath="D:/sturtctate/25Infantry/26Alien/dogGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c", Line=1873
+OpenDocument="Pitch.cpp", FilePath="D:/sturtctate/25Infantry/26Alien/dogGimbal/Control/Pitch.cpp", Line=36
+OpenDocument="stm32f4xx_it.c", FilePath="D:/sturtctate/25Infantry/26Alien/dogGimbal/Core/Src/stm32f4xx_it.c", Line=575
+OpenDocument="stm32f4xx_hal.c", FilePath="D:/sturtctate/25Infantry/26Alien/dogGimbal/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c", Line=315
+OpenDocument="communication.c", FilePath="D:/sturtctate/25Infantry/26Alien/dogGimbal/RM2023_Lib_V1.2/communication.c", Line=17
+OpenDocument="Yaw.cpp", FilePath="D:/sturtctate/25Infantry/26Alien/dogGimbal/Control/Yaw.cpp", Line=0
+OpenDocument="RM_Lib.cpp", FilePath="D:/sturtctate/25Infantry/26Alien/dogGimbal/RM2023_Lib_V1.2/RM_Lib.cpp", Line=1455
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Call Stack", DockArea=LEFT, x=0, y=0, w=476, h=298, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=0, w=514, h=180, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Watched Data 1", DockArea=LEFT, x=0, y=1, w=476, h=404, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Data Sampling", DockArea=BOTTOM, x=0, y=0, w=1920, h=221, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=RIGHT, x=0, y=1, w=514, h=522, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="500 ms / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="216;0", PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="313;0", CodeGraphLegendShown=0, CodeGraphLegendPosition="327;0"
+TableHeader="Call Stack", SortCol="Function", SortOrder="ASCENDING", VisibleCols=["Function";"Stack Frame";"Source";"PC";"Return Address";"Stack Used"], ColWidths=[350;126;161;100;190;100]
+TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" GIMBAL_088.realAngle.yaw";" Yaw.ref";" error_yaw";" Pitch.ref";" GIMBAL_088.realAngle.pitch"], ColWidths=[100;100;100;100;100;100;100]
+TableHeader="Data Sampling Setup", SortCol="Type", SortOrder="ASCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[291;100;100;110;100;110;100;118;891]
+TableHeader="Power Sampling", SortCol="Index", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh"], ColWidths=[198;100;100;100]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[26;26;26;26]
+WatchedExpression="Yaw", Window=Watched Data 1
+WatchedExpression="100", Window=Watched Data 1
