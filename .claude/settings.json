@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmake --version)",
+      "Bash(ninja --version)",
+      "Bash(make --version)"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "cmake.cmakePath": "cube-cmake",
+    "cmake.configureArgs": [
+        "-DCMAKE_TOOLCHAIN_FILE=${workspaceFolder}/cmake/gcc-arm-none-eabi.cmake",
+        "-DCMAKE_COMMAND=cube-cmake"
+    ],
+    "cmake.preferredGenerators": [
+        "Ninja"
+    ],
+    "cmake.environment": {
+        "PATH": "/home/yorkuy/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.45.0-linux-x64/resources/cube-cmake/linux/x86_64:/home/yorkuy/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.3.0-linux-x64/resources/binaries/linux/x86_64:/home/yorkuy/.local/share/stm32cube/bundles/ninja/1.13.2+st.1/bin:/home/yorkuy/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin:${env:PATH}"
+    },
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "stm32cube-ide-clangd.path": "cube",
+    "stm32cube-ide-clangd.arguments": [
+        "starm-clangd",
+        "--query-driver=${env:CUBE_BUNDLE_PATH}/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc*",
+        "--query-driver=${env:CUBE_BUNDLE_PATH}/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-g++*"
+    ],
+    "stm32cube-ide-build-analyzer.map-file-path": "${workspaceFolder}/build/Gimbal_V1.1.map",
+    "stm32cube-ide-build-analyzer.elf-file-path": "${workspaceFolder}/build/Gimbal_V1.1.elf"
+}

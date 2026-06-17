@@ -34,7 +34,7 @@
 /* USER CODE BEGIN TD */
 extern RC YK;
 extern USER_CAN CAN_Motor;
-extern USER_CAN CAN_Communicate; // ���ͨ��?
+extern USER_CAN CAN_Communicate; // ���ͨ��?
 uint64_t disable_irq_1, disable_irq_2, disable_irq_3, disable_irq_4, disable_irq_5, disable_irq_6, disable_irq_7, disable_irq_8, disable_irq_9, disable_irq_10;
 extern YKStateTransitionDetector YK_MODE_SW_C_N, YK_MODE_SW_C_S, YK_MODE_SW_N_C, YK_MODE_SW_S_C;
 extern uint8_t DR16_Stop_Flag;  
@@ -369,9 +369,9 @@ void USART1_IRQHandler(void)
   {
     // ֹͣ����6��dma�����ж�
     HAL_UART_DMAStop(&huart6);
-    //		// ���? RXNE ��־����Խ����жϣ�?
+    //		// ���? RXNE ��־����Խ����жϣ�?
     //		__HAL_UART_CLEAR_FLAG(&huart6, UART_FLAG_RXNE);
-    //		// ����������ܵ��жϱ�־����? TC, IDLE �ȣ�
+    //		// ����������ܵ��жϱ�־����? TC, IDLE �ȣ�
     //		__HAL_UART_CLEAR_FLAG(&huart6, UART_FLAG_TC);
     __HAL_UART_DISABLE_IT(&huart6, UART_IT_RXNE | UART_IT_TC | UART_IT_IDLE);
     disable_irq_1++;
@@ -406,7 +406,7 @@ void USART2_IRQHandler(void)
   extern uint8_t YK_Mode;
   if ((__HAL_UART_GET_FLAG(&MINI_PC_USART_HANDLE, UART_FLAG_IDLE) != RESET))
   {
-    __HAL_UART_CLEAR_IDLEFLAG(&MINI_PC_USART_HANDLE); // ��������жϱ��?
+    __HAL_UART_CLEAR_IDLEFLAG(&MINI_PC_USART_HANDLE); // ��������жϱ��?
     temp = MINI_PC_USART_HANDLE.Instance->SR;
     temp = MINI_PC_USART_HANDLE.Instance->DR;
     HAL_UART_DMAStop(&MINI_PC_USART_HANDLE);                                     // ֹͣDMA���䣨��ȫ������
@@ -420,9 +420,9 @@ void USART2_IRQHandler(void)
     //       if(isnan(response.yaw.f)) response.yaw.f=0.0;
     //       if(isnan(response.pitch.f)) response.pitch.f=0.0;
 
-    if (Mini_PC_rx_buf[0] == 0x66 && Mini_PC_rx_buf[28] == 0x11) // �������֡ͷ�Ƿ��?0x66���Զ���Э���ʶ��?
+    if (Mini_PC_rx_buf[0] == 0x66 && Mini_PC_rx_buf[28] == 0x11) // �������֡ͷ�Ƿ��?0x66���Զ���Э���ʶ��?
     {
-      if (YK_Mode == PLAYER_MODE || YK_Mode == SHOOT_MODE) // ѡ�ֶ�ģʽ�������ģ�?
+      if (YK_Mode == PLAYER_MODE || YK_Mode == SHOOT_MODE) // ѡ�ֶ�ģʽ�������ģ�?
       {
         if (request.zimiao_status)
         {

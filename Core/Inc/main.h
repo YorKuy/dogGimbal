@@ -62,18 +62,18 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 
 /* USER CODE BEGIN Private defines */
-// ¿ØÖÆÄ£Ê½
-#define PROTECT_MODE 0        //Ê§ÄÜÄ£Ê½
-#define ONLY_GIMBAL  1        //´¿ÔÆÌ¨
-#define ONLY_CHASSIC 2        //´¿µ×ÅÌ
-#define CONTROL_MODE 3        //Ë«ÖÐ¿ØÖÆ
-#define XTL_MODE     4        //Ð¡ÍÓÂÝ
-#define SHOOT_MODE   5        //·¢ÉäÄ£Ê½
-#define PLAYER_MODE  6        //²Ù×÷ÊÖÄ£Ê½
-#define FAST_CHASSIC 7        //¸ßËÙµ×ÅÌ
+// ï¿½ï¿½ï¿½ï¿½Ä£Ê½
+#define PROTECT_MODE 0        //Ê§ï¿½ï¿½Ä£Ê½
+#define ONLY_GIMBAL  1        //ï¿½ï¿½ï¿½ï¿½Ì¨
+#define ONLY_CHASSIC 2        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define CONTROL_MODE 3        //Ë«ï¿½Ð¿ï¿½ï¿½ï¿½
+#define XTL_MODE     4        //Ð¡ï¿½ï¿½ï¿½ï¿½
+#define SHOOT_MODE   5        //ï¿½ï¿½ï¿½ï¿½Ä£Ê½
+#define PLAYER_MODE  6        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£Ê½
+#define FAST_CHASSIC 7        //ï¿½ï¿½ï¿½Ùµï¿½ï¿½ï¿½
 
-#define GYRO_MODE    1        //ÍÓÂÝÒÇ±Õ»·
-#define AUTO_MODE    2        //×ÔÃéÄ£Ê½
+#define GYRO_MODE    1        //ï¿½ï¿½ï¿½ï¿½ï¿½Ç±Õ»ï¿½
+#define AUTO_MODE    2        //ï¿½ï¿½ï¿½ï¿½Ä£Ê½
 #define Error_MODE   3
 
 
